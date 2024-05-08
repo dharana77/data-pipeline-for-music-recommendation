@@ -45,7 +45,7 @@ Eventsim leverages song data from the [Million Songs Dataset](http://millionsong
 
 ### Tools & Technologies
 
-- Cloud - [**Naver Cloud Platform**](https://www.ncloud.com/)
+- Cloud - [**AWS**](https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin), [**Naver Cloud Platform**](https://www.ncloud.com/)
 - Containerization - [**Docker**](https://www.docker.com), [**Kubernetes**](https://kubernetes.io/)
 - Data Collection - [**Fluentd**](https://www.fluentd.org/)
 - Data Processing - [**Spark**](https://spark.apache.org/)
