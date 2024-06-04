@@ -5,13 +5,14 @@
 docker build -t events:1.0 .
 ```
 #### Run With Kafka Configured On Localhost
+- Caution: end-time should be modified to today
 ```bash
 docker run -it \
   --network host \
   events:1.0 \
     -c "examples/example-config.json" \
-    --start-time "2022-01-28T19:00:00" \
-    --end-time "2024-05-28T19:00:00" --nusers 100 \
+    --start-time "`date +"%Y-%m-%dT%H:%M:%S"`" \
+    --end-time "2024-05-30T17:00:00" --nusers 20000 \
     --kafkaBrokerList localhost:9092 \
     --continuous
 ```
